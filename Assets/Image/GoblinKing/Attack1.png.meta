@@ -1,0 +1,1083 @@
+fileFormatVersion: 2
+guid: d64e81a126129a548acaf43f4c801cc7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7008412969330441016
+    second: Attack_0
+  - first:
+      213: -7763475090823894447
+    second: Attack_1
+  - first:
+      213: 302641331129538988
+    second: Attack_2
+  - first:
+      213: -6329420634031446844
+    second: Attack_3
+  - first:
+      213: -910092549403018386
+    second: Attack_4
+  - first:
+      213: 221524225039350300
+    second: Attack_5
+  - first:
+      213: 1290532464073988732
+    second: Attack_6
+  - first:
+      213: 4780903288873104255
+    second: Attack_7
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Lumin
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Attack1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: -20}
+        - {x: 2, y: -25}
+        - {x: 6, y: -28}
+        - {x: 11, y: -28}
+        - {x: 12, y: -25}
+        - {x: 10, y: -22}
+        - {x: 14, y: -19}
+        - {x: 16, y: -14}
+        - {x: 18, y: -12}
+        - {x: 18, y: -9}
+        - {x: 16, y: -7}
+        - {x: 12, y: -6}
+        - {x: 10, y: -2}
+        - {x: 13, y: 2}
+        - {x: 13, y: 8}
+        - {x: 10, y: 9}
+        - {x: 8, y: 7}
+        - {x: 6, y: 11}
+        - {x: 2, y: 12}
+        - {x: -1, y: 9}
+        - {x: -6, y: 10}
+        - {x: -8, y: 8}
+        - {x: -8, y: 6}
+        - {x: -4, y: 2}
+        - {x: -8, y: 1}
+        - {x: -11, y: 0}
+        - {x: -15, y: -3}
+        - {x: -17, y: -3}
+        - {x: -19, y: -5}
+        - {x: -19, y: -7}
+        - {x: -16, y: -14}
+        - {x: -12, y: -17}
+        - {x: -14, y: -22}
+        - {x: -17, y: -24}
+        - {x: -17, y: -26}
+        - {x: -15, y: -28}
+        - {x: -9, y: -28}
+        - {x: -7, y: -26}
+        - {x: -2, y: -20}
+        - {x: 0, y: -21}
+      - - {x: -8, y: -8}
+        - {x: -7, y: -7}
+        - {x: -6, y: -8}
+        - {x: -8, y: -10}
+      physicsShape:
+      - - {x: 2, y: -20}
+        - {x: 2, y: -25}
+        - {x: 6, y: -28}
+        - {x: 11, y: -28}
+        - {x: 12, y: -25}
+        - {x: 10, y: -22}
+        - {x: 14, y: -19}
+        - {x: 16, y: -14}
+        - {x: 18, y: -12}
+        - {x: 18, y: -9}
+        - {x: 16, y: -7}
+        - {x: 12, y: -6}
+        - {x: 10, y: -2}
+        - {x: 13, y: 2}
+        - {x: 13, y: 8}
+        - {x: 10, y: 9}
+        - {x: 8, y: 7}
+        - {x: 6, y: 11}
+        - {x: 2, y: 12}
+        - {x: -1, y: 9}
+        - {x: -6, y: 10}
+        - {x: -8, y: 8}
+        - {x: -8, y: 6}
+        - {x: -4, y: 2}
+        - {x: -8, y: 1}
+        - {x: -11, y: 0}
+        - {x: -15, y: -3}
+        - {x: -17, y: -3}
+        - {x: -19, y: -5}
+        - {x: -19, y: -7}
+        - {x: -16, y: -14}
+        - {x: -12, y: -17}
+        - {x: -14, y: -22}
+        - {x: -17, y: -24}
+        - {x: -17, y: -26}
+        - {x: -15, y: -28}
+        - {x: -9, y: -28}
+        - {x: -7, y: -26}
+        - {x: -2, y: -20}
+        - {x: 0, y: -21}
+      - - {x: -8, y: -8}
+        - {x: -7, y: -7}
+        - {x: -6, y: -8}
+        - {x: -8, y: -10}
+      tessellationDetail: 0.8
+      bones: []
+      spriteID: ed9ff55e79b9e4c40aa88ee6eb0d4e5d
+      internalID: 491318695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack1_1
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: -28}
+        - {x: 11, y: -28}
+        - {x: 12, y: -25}
+        - {x: 10, y: -23}
+        - {x: 14, y: -20}
+        - {x: 15, y: -14}
+        - {x: 15, y: -11}
+        - {x: 10, y: -8}
+        - {x: 10, y: -2}
+        - {x: 13, y: 2}
+        - {x: 13, y: 8}
+        - {x: 10, y: 9}
+        - {x: 8, y: 7}
+        - {x: 6, y: 11}
+        - {x: 2, y: 12}
+        - {x: -1, y: 9}
+        - {x: -6, y: 10}
+        - {x: -8, y: 8}
+        - {x: -8, y: 6}
+        - {x: -3, y: 1}
+        - {x: -5, y: 0}
+        - {x: -8, y: -7}
+        - {x: -8, y: -9}
+        - {x: -13, y: -20}
+        - {x: -17, y: -25}
+        - {x: -17, y: -26}
+        - {x: -15, y: -28}
+        - {x: -9, y: -28}
+        - {x: -1, y: -20}
+        - {x: 2, y: -26}
+      physicsShape:
+      - - {x: 5, y: -28}
+        - {x: 11, y: -28}
+        - {x: 12, y: -25}
+        - {x: 10, y: -23}
+        - {x: 14, y: -20}
+        - {x: 15, y: -14}
+        - {x: 15, y: -11}
+        - {x: 10, y: -8}
+        - {x: 10, y: -2}
+        - {x: 13, y: 2}
+        - {x: 13, y: 8}
+        - {x: 10, y: 9}
+        - {x: 8, y: 7}
+        - {x: 6, y: 11}
+        - {x: 2, y: 12}
+        - {x: -1, y: 9}
+        - {x: -6, y: 10}
+        - {x: -8, y: 8}
+        - {x: -8, y: 6}
+        - {x: -3, y: 1}
+        - {x: -5, y: 0}
+        - {x: -8, y: -7}
+        - {x: -8, y: -9}
+        - {x: -13, y: -20}
+        - {x: -17, y: -25}
+        - {x: -17, y: -26}
+        - {x: -15, y: -28}
+        - {x: -9, y: -28}
+        - {x: -1, y: -20}
+        - {x: 2, y: -26}
+      tessellationDetail: 0.8
+      bones: []
+      spriteID: 0a1a22835ffd51941b6070b5ade38d35
+      internalID: -1964854342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack1_2
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: -28}
+        - {x: 12, y: -26}
+        - {x: 11, y: -24}
+        - {x: 14, y: -23}
+        - {x: 15, y: -20}
+        - {x: 15, y: -17}
+        - {x: 13, y: -14}
+        - {x: 15, y: -12}
+        - {x: 16, y: -7}
+        - {x: 15, y: -6}
+        - {x: 15, y: 2}
+        - {x: 11, y: 7}
+        - {x: 10, y: 7}
+        - {x: 8, y: 5}
+        - {x: 6, y: 9}
+        - {x: 2, y: 10}
+        - {x: -1, y: 7}
+        - {x: -6, y: 8}
+        - {x: -8, y: 6}
+        - {x: -8, y: 4}
+        - {x: -5, y: -4}
+        - {x: -5, y: -10}
+        - {x: -11, y: -15}
+        - {x: -13, y: -20}
+        - {x: -17, y: -25}
+        - {x: -17, y: -26}
+        - {x: -15, y: -28}
+        - {x: -9, y: -28}
+        - {x: 0, y: -19}
+        - {x: 0, y: -21}
+        - {x: 6, y: -28}
+      physicsShape:
+      - - {x: 10, y: -28}
+        - {x: 12, y: -26}
+        - {x: 11, y: -24}
+        - {x: 14, y: -23}
+        - {x: 15, y: -20}
+        - {x: 15, y: -17}
+        - {x: 13, y: -14}
+        - {x: 15, y: -12}
+        - {x: 16, y: -7}
+        - {x: 15, y: -6}
+        - {x: 15, y: 2}
+        - {x: 11, y: 7}
+        - {x: 10, y: 7}
+        - {x: 8, y: 5}
+        - {x: 6, y: 9}
+        - {x: 2, y: 10}
+        - {x: -1, y: 7}
+        - {x: -6, y: 8}
+        - {x: -8, y: 6}
+        - {x: -8, y: 4}
+        - {x: -5, y: -4}
+        - {x: -5, y: -10}
+        - {x: -11, y: -15}
+        - {x: -13, y: -20}
+        - {x: -17, y: -25}
+        - {x: -17, y: -26}
+        - {x: -15, y: -28}
+        - {x: -9, y: -28}
+        - {x: 0, y: -19}
+        - {x: 0, y: -21}
+        - {x: 6, y: -28}
+      tessellationDetail: 0.8
+      bones: []
+      spriteID: b1be7fec0f3a97a4aa78b7c51071998b
+      internalID: 844932660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack1_3
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: -28}
+        - {x: 12, y: -26}
+        - {x: 11, y: -24}
+        - {x: 14, y: -23}
+        - {x: 15, y: -20}
+        - {x: 15, y: -17}
+        - {x: 13, y: -14}
+        - {x: 15, y: -12}
+        - {x: 16, y: -7}
+        - {x: 15, y: -6}
+        - {x: 15, y: 2}
+        - {x: 11, y: 7}
+        - {x: 10, y: 7}
+        - {x: 8, y: 5}
+        - {x: 6, y: 9}
+        - {x: 2, y: 10}
+        - {x: -1, y: 7}
+        - {x: -6, y: 8}
+        - {x: -8, y: 6}
+        - {x: -8, y: 4}
+        - {x: -5, y: -4}
+        - {x: -5, y: -10}
+        - {x: -11, y: -15}
+        - {x: -13, y: -20}
+        - {x: -17, y: -25}
+        - {x: -17, y: -26}
+        - {x: -15, y: -28}
+        - {x: -9, y: -28}
+        - {x: 0, y: -19}
+        - {x: 0, y: -21}
+        - {x: 6, y: -28}
+      physicsShape:
+      - - {x: 10, y: -28}
+        - {x: 12, y: -26}
+        - {x: 11, y: -24}
+        - {x: 14, y: -23}
+        - {x: 15, y: -20}
+        - {x: 15, y: -17}
+        - {x: 13, y: -14}
+        - {x: 15, y: -12}
+        - {x: 16, y: -7}
+        - {x: 15, y: -6}
+        - {x: 15, y: 2}
+        - {x: 11, y: 7}
+        - {x: 10, y: 7}
+        - {x: 8, y: 5}
+        - {x: 6, y: 9}
+        - {x: 2, y: 10}
+        - {x: -1, y: 7}
+        - {x: -6, y: 8}
+        - {x: -8, y: 6}
+        - {x: -8, y: 4}
+        - {x: -5, y: -4}
+        - {x: -5, y: -10}
+        - {x: -11, y: -15}
+        - {x: -13, y: -20}
+        - {x: -17, y: -25}
+        - {x: -17, y: -26}
+        - {x: -15, y: -28}
+        - {x: -9, y: -28}
+        - {x: 0, y: -19}
+        - {x: 0, y: -21}
+        - {x: 6, y: -28}
+      tessellationDetail: 0.8
+      bones: []
+      spriteID: 852a7f4d492c9f64a9ad74b93471b018
+      internalID: -147292563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack1_4
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10, y: -28}
+        - {x: 12, y: -26}
+        - {x: 11, y: -24}
+        - {x: 14, y: -23}
+        - {x: 15, y: -20}
+        - {x: 15, y: -17}
+        - {x: 13, y: -14}
+        - {x: 15, y: -12}
+        - {x: 16, y: -7}
+        - {x: 15, y: -6}
+        - {x: 15, y: 2}
+        - {x: 11, y: 7}
+        - {x: 10, y: 7}
+        - {x: 8, y: 5}
+        - {x: 6, y: 9}
+        - {x: 2, y: 10}
+        - {x: -1, y: 7}
+        - {x: -6, y: 8}
+        - {x: -8, y: 6}
+        - {x: -8, y: 4}
+        - {x: -5, y: -4}
+        - {x: -5, y: -10}
+        - {x: -11, y: -15}
+        - {x: -13, y: -20}
+        - {x: -17, y: -25}
+        - {x: -17, y: -26}
+        - {x: -15, y: -28}
+        - {x: -9, y: -28}
+        - {x: 0, y: -19}
+        - {x: 0, y: -21}
+        - {x: 6, y: -28}
+      physicsShape:
+      - - {x: 10, y: -28}
+        - {x: 12, y: -26}
+        - {x: 11, y: -24}
+        - {x: 14, y: -23}
+        - {x: 15, y: -20}
+        - {x: 15, y: -17}
+        - {x: 13, y: -14}
+        - {x: 15, y: -12}
+        - {x: 16, y: -7}
+        - {x: 15, y: -6}
+        - {x: 15, y: 2}
+        - {x: 11, y: 7}
+        - {x: 10, y: 7}
+        - {x: 8, y: 5}
+        - {x: 6, y: 9}
+        - {x: 2, y: 10}
+        - {x: -1, y: 7}
+        - {x: -6, y: 8}
+        - {x: -8, y: 6}
+        - {x: -8, y: 4}
+        - {x: -5, y: -4}
+        - {x: -5, y: -10}
+        - {x: -11, y: -15}
+        - {x: -13, y: -20}
+        - {x: -17, y: -25}
+        - {x: -17, y: -26}
+        - {x: -15, y: -28}
+        - {x: -9, y: -28}
+        - {x: 0, y: -19}
+        - {x: 0, y: -21}
+        - {x: 6, y: -28}
+      tessellationDetail: 0.8
+      bones: []
+      spriteID: 10658a981e2f4ed4c9aa8aed65b2b902
+      internalID: 131778102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack1_5
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: -25}
+        - {x: 3, y: -27}
+        - {x: 6, y: -28}
+        - {x: 10, y: -28}
+        - {x: 12, y: -26}
+        - {x: 11, y: -24}
+        - {x: 14, y: -20}
+        - {x: 14, y: -16}
+        - {x: 12, y: -12}
+        - {x: 15, y: -8}
+        - {x: 17, y: -5}
+        - {x: 18, y: -1}
+        - {x: 16, y: 1}
+        - {x: 14, y: 1}
+        - {x: 12, y: -1}
+        - {x: 12, y: -2}
+        - {x: 9, y: -3}
+        - {x: 12, y: 1}
+        - {x: 12, y: 7}
+        - {x: 9, y: 8}
+        - {x: 7, y: 6}
+        - {x: 5, y: 10}
+        - {x: 1, y: 11}
+        - {x: -2, y: 8}
+        - {x: -7, y: 9}
+        - {x: -9, y: 7}
+        - {x: -9, y: 5}
+        - {x: -6, y: -3}
+        - {x: -6, y: -9}
+        - {x: -8, y: -11}
+        - {x: -12, y: -16}
+        - {x: -12, y: -19}
+        - {x: -14, y: -22}
+        - {x: -17, y: -25}
+        - {x: -17, y: -26}
+        - {x: -15, y: -28}
+        - {x: -9, y: -28}
+        - {x: -3, y: -22}
+        - {x: 0, y: -18}
+        - {x: 1, y: -21}
+      physicsShape:
+      - - {x: 2, y: -25}
+        - {x: 3, y: -27}
+        - {x: 6, y: -28}
+        - {x: 10, y: -28}
+        - {x: 12, y: -26}
+        - {x: 11, y: -24}
+        - {x: 14, y: -20}
+        - {x: 14, y: -16}
+        - {x: 12, y: -12}
+        - {x: 15, y: -8}
+        - {x: 17, y: -5}
+        - {x: 18, y: -1}
+        - {x: 16, y: 1}
+        - {x: 14, y: 1}
+        - {x: 12, y: -1}
+        - {x: 12, y: -2}
+        - {x: 9, y: -3}
+        - {x: 12, y: 1}
+        - {x: 12, y: 7}
+        - {x: 9, y: 8}
+        - {x: 7, y: 6}
+        - {x: 5, y: 10}
+        - {x: 1, y: 11}
+        - {x: -2, y: 8}
+        - {x: -7, y: 9}
+        - {x: -9, y: 7}
+        - {x: -9, y: 5}
+        - {x: -6, y: -3}
+        - {x: -6, y: -9}
+        - {x: -8, y: -11}
+        - {x: -12, y: -16}
+        - {x: -12, y: -19}
+        - {x: -14, y: -22}
+        - {x: -17, y: -25}
+        - {x: -17, y: -26}
+        - {x: -15, y: -28}
+        - {x: -9, y: -28}
+        - {x: -3, y: -22}
+        - {x: 0, y: -18}
+        - {x: 1, y: -21}
+      tessellationDetail: 0.8
+      bones: []
+      spriteID: 89c4b4608c9acbc47bfabbffcb2344e4
+      internalID: -661048217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack1_6
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: -18}
+        - {x: -2, y: -18}
+        - {x: 0, y: -21}
+        - {x: 3, y: -27}
+        - {x: 6, y: -28}
+        - {x: 9, y: -28}
+        - {x: 11, y: -26}
+        - {x: 11, y: -24}
+        - {x: 14, y: -24}
+        - {x: 24, y: -25}
+        - {x: 25, y: -26}
+        - {x: 34, y: -26}
+        - {x: 38, y: -25}
+        - {x: 41, y: -24}
+        - {x: 46, y: -19}
+        - {x: 46, y: -15}
+        - {x: 44, y: -10}
+        - {x: 37, y: -4}
+        - {x: 33, y: -2}
+        - {x: 31, y: -2}
+        - {x: 30, y: -5}
+        - {x: 34, y: -10}
+        - {x: 32, y: -11}
+        - {x: 16, y: -11}
+        - {x: 13, y: -9}
+        - {x: 10, y: -9}
+        - {x: 12, y: -7}
+        - {x: 12, y: -4}
+        - {x: 8, y: -1}
+        - {x: 6, y: -1}
+        - {x: 0, y: 5}
+        - {x: 2, y: 8}
+        - {x: 2, y: 14}
+        - {x: -1, y: 15}
+        - {x: -3, y: 13}
+        - {x: -5, y: 17}
+        - {x: -9, y: 18}
+        - {x: -12, y: 15}
+        - {x: -17, y: 16}
+        - {x: -19, y: 12}
+        - {x: -22, y: 16}
+        - {x: -26, y: 17}
+        - {x: -31, y: 21}
+        - {x: -34, y: 22}
+        - {x: -35, y: 21}
+        - {x: -40, y: 21}
+        - {x: -45, y: 18}
+        - {x: -46, y: 15}
+        - {x: -46, y: 11}
+        - {x: -44, y: 8}
+        - {x: -37, y: 1}
+        - {x: -30, y: -4}
+        - {x: -26, y: -7}
+        - {x: -21, y: -10}
+        - {x: -14, y: -13}
+        - {x: -14, y: -18}
+        - {x: -17, y: -25}
+        - {x: -17, y: -26}
+        - {x: -15, y: -28}
+        - {x: -10, y: -28}
+        - {x: -8, y: -26}
+        - {x: -6, y: -23}
+        - {x: -5, y: -17}
+      - - {x: 28, y: -4}
+        - {x: 31, y: -3}
+        - {x: 31, y: 0}
+        - {x: 28, y: 1}
+        - {x: 26, y: -1}
+      - - {x: 20, y: 1}
+        - {x: 23, y: 2}
+        - {x: 23, y: 5}
+        - {x: 20, y: 6}
+        - {x: 18, y: 4}
+      physicsShape:
+      - - {x: -4, y: -18}
+        - {x: -2, y: -18}
+        - {x: 0, y: -21}
+        - {x: 3, y: -27}
+        - {x: 6, y: -28}
+        - {x: 9, y: -28}
+        - {x: 11, y: -26}
+        - {x: 11, y: -24}
+        - {x: 14, y: -24}
+        - {x: 24, y: -25}
+        - {x: 25, y: -26}
+        - {x: 34, y: -26}
+        - {x: 38, y: -25}
+        - {x: 41, y: -24}
+        - {x: 46, y: -19}
+        - {x: 46, y: -15}
+        - {x: 44, y: -10}
+        - {x: 37, y: -4}
+        - {x: 33, y: -2}
+        - {x: 31, y: -2}
+        - {x: 30, y: -5}
+        - {x: 34, y: -10}
+        - {x: 32, y: -11}
+        - {x: 16, y: -11}
+        - {x: 13, y: -9}
+        - {x: 10, y: -9}
+        - {x: 12, y: -7}
+        - {x: 12, y: -4}
+        - {x: 8, y: -1}
+        - {x: 6, y: -1}
+        - {x: 0, y: 5}
+        - {x: 2, y: 8}
+        - {x: 2, y: 14}
+        - {x: -1, y: 15}
+        - {x: -3, y: 13}
+        - {x: -5, y: 17}
+        - {x: -9, y: 18}
+        - {x: -12, y: 15}
+        - {x: -17, y: 16}
+        - {x: -19, y: 12}
+        - {x: -22, y: 16}
+        - {x: -26, y: 17}
+        - {x: -31, y: 21}
+        - {x: -34, y: 22}
+        - {x: -35, y: 21}
+        - {x: -40, y: 21}
+        - {x: -45, y: 18}
+        - {x: -46, y: 15}
+        - {x: -46, y: 11}
+        - {x: -44, y: 8}
+        - {x: -37, y: 1}
+        - {x: -30, y: -4}
+        - {x: -26, y: -7}
+        - {x: -21, y: -10}
+        - {x: -14, y: -13}
+        - {x: -14, y: -18}
+        - {x: -17, y: -25}
+        - {x: -17, y: -26}
+        - {x: -15, y: -28}
+        - {x: -10, y: -28}
+        - {x: -8, y: -26}
+        - {x: -6, y: -23}
+        - {x: -5, y: -17}
+      - - {x: 28, y: -4}
+        - {x: 31, y: -3}
+        - {x: 31, y: 0}
+        - {x: 28, y: 1}
+        - {x: 26, y: -1}
+      - - {x: 20, y: 1}
+        - {x: 23, y: 2}
+        - {x: 23, y: 5}
+        - {x: 20, y: 6}
+        - {x: 18, y: 4}
+      tessellationDetail: 0.8
+      bones: []
+      spriteID: 9833a0bdaf7be9042b5b636cbda4f253
+      internalID: 371126758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Attack1_7
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: -18}
+        - {x: -2, y: -18}
+        - {x: 0, y: -21}
+        - {x: 3, y: -27}
+        - {x: 6, y: -28}
+        - {x: 9, y: -28}
+        - {x: 12, y: -27}
+        - {x: 14, y: -24}
+        - {x: 15, y: -21}
+        - {x: 14, y: -18}
+        - {x: 7, y: -16}
+        - {x: 6, y: -13}
+        - {x: 4, y: -9}
+        - {x: 1, y: -4}
+        - {x: 4, y: -6}
+        - {x: 4, y: -8}
+        - {x: 6, y: -10}
+        - {x: 10, y: -9}
+        - {x: 12, y: -7}
+        - {x: 12, y: -4}
+        - {x: 10, y: -2}
+        - {x: 6, y: -1}
+        - {x: 0, y: 5}
+        - {x: 2, y: 8}
+        - {x: 2, y: 14}
+        - {x: -1, y: 15}
+        - {x: -3, y: 13}
+        - {x: -5, y: 17}
+        - {x: -9, y: 18}
+        - {x: -12, y: 15}
+        - {x: -17, y: 16}
+        - {x: -19, y: 12}
+        - {x: -22, y: 16}
+        - {x: -26, y: 17}
+        - {x: -31, y: 21}
+        - {x: -34, y: 22}
+        - {x: -35, y: 21}
+        - {x: -40, y: 21}
+        - {x: -45, y: 18}
+        - {x: -46, y: 15}
+        - {x: -46, y: 11}
+        - {x: -44, y: 8}
+        - {x: -37, y: 1}
+        - {x: -36, y: 1}
+        - {x: -30, y: -4}
+        - {x: -26, y: -7}
+        - {x: -21, y: -10}
+        - {x: -14, y: -13}
+        - {x: -14, y: -18}
+        - {x: -17, y: -25}
+        - {x: -17, y: -26}
+        - {x: -15, y: -28}
+        - {x: -10, y: -28}
+        - {x: -8, y: -26}
+        - {x: -6, y: -23}
+        - {x: -5, y: -17}
+      - - {x: 19, y: -21}
+        - {x: 20, y: -24}
+        - {x: 24, y: -24}
+        - {x: 26, y: -22}
+        - {x: 25, y: -19}
+        - {x: 21, y: -19}
+      - - {x: 36, y: -20}
+        - {x: 37, y: -23}
+        - {x: 41, y: -23}
+        - {x: 45, y: -20}
+        - {x: 44, y: -17}
+        - {x: 41, y: -17}
+      - - {x: -20, y: 0}
+        - {x: -24, y: 3}
+        - {x: -24, y: 4}
+        - {x: -26, y: 6}
+        - {x: -26, y: 8}
+        - {x: -24, y: 8}
+        - {x: -24, y: 7}
+        - {x: -22, y: 4}
+        - {x: -18, y: 3}
+        - {x: -13, y: -1}
+        - {x: -13, y: -3}
+        - {x: -12, y: -4}
+        - {x: -14, y: -4}
+        - {x: -14, y: -3}
+      physicsShape:
+      - - {x: -4, y: -18}
+        - {x: -2, y: -18}
+        - {x: 0, y: -21}
+        - {x: 3, y: -27}
+        - {x: 6, y: -28}
+        - {x: 9, y: -28}
+        - {x: 12, y: -27}
+        - {x: 14, y: -24}
+        - {x: 15, y: -21}
+        - {x: 14, y: -18}
+        - {x: 7, y: -16}
+        - {x: 6, y: -13}
+        - {x: 4, y: -9}
+        - {x: 1, y: -4}
+        - {x: 4, y: -6}
+        - {x: 4, y: -8}
+        - {x: 6, y: -10}
+        - {x: 10, y: -9}
+        - {x: 12, y: -7}
+        - {x: 12, y: -4}
+        - {x: 10, y: -2}
+        - {x: 6, y: -1}
+        - {x: 0, y: 5}
+        - {x: 2, y: 8}
+        - {x: 2, y: 14}
+        - {x: -1, y: 15}
+        - {x: -3, y: 13}
+        - {x: -5, y: 17}
+        - {x: -9, y: 18}
+        - {x: -12, y: 15}
+        - {x: -17, y: 16}
+        - {x: -19, y: 12}
+        - {x: -22, y: 16}
+        - {x: -26, y: 17}
+        - {x: -31, y: 21}
+        - {x: -34, y: 22}
+        - {x: -35, y: 21}
+        - {x: -40, y: 21}
+        - {x: -45, y: 18}
+        - {x: -46, y: 15}
+        - {x: -46, y: 11}
+        - {x: -44, y: 8}
+        - {x: -37, y: 1}
+        - {x: -36, y: 1}
+        - {x: -30, y: -4}
+        - {x: -26, y: -7}
+        - {x: -21, y: -10}
+        - {x: -14, y: -13}
+        - {x: -14, y: -18}
+        - {x: -17, y: -25}
+        - {x: -17, y: -26}
+        - {x: -15, y: -28}
+        - {x: -10, y: -28}
+        - {x: -8, y: -26}
+        - {x: -6, y: -23}
+        - {x: -5, y: -17}
+      - - {x: 19, y: -21}
+        - {x: 20, y: -24}
+        - {x: 24, y: -24}
+        - {x: 26, y: -22}
+        - {x: 25, y: -19}
+        - {x: 21, y: -19}
+      - - {x: 36, y: -20}
+        - {x: 37, y: -23}
+        - {x: 41, y: -23}
+        - {x: 45, y: -20}
+        - {x: 44, y: -17}
+        - {x: 41, y: -17}
+      - - {x: -20, y: 0}
+        - {x: -24, y: 3}
+        - {x: -24, y: 4}
+        - {x: -26, y: 6}
+        - {x: -26, y: 8}
+        - {x: -24, y: 8}
+        - {x: -24, y: 7}
+        - {x: -22, y: 4}
+        - {x: -18, y: 3}
+        - {x: -13, y: -1}
+        - {x: -13, y: -3}
+        - {x: -12, y: -4}
+        - {x: -14, y: -4}
+        - {x: -14, y: -3}
+      tessellationDetail: 0.8
+      bones: []
+      spriteID: b94c09877e44a124db7c9ca6931f24dc
+      internalID: -555883496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Attack1_5: -661048217
+      Attack1_6: 371126758
+      Attack1_7: -555883496
+      Attack1_0: 491318695
+      Attack1_3: -147292563
+      Attack1_2: 844932660
+      Attack1_4: 131778102
+      Attack1_1: -1964854342
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
