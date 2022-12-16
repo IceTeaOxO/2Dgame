@@ -8,6 +8,11 @@ public class PlayerController : MonoBehaviour
     public float KickBoardMovePower = 15f;
     public float jumpPower = 20f;
 
+    public float MaxHp;
+    public float Hp;
+
+    public float BeHitSpeed;
+
     private Rigidbody2D rb;
     private Animator anim;
     Vector3 movement;
@@ -15,11 +20,16 @@ public class PlayerController : MonoBehaviour
     bool isJumping = false;
     private bool alive = true;
     private bool isKickboard = false;
+    public bool IsHit;
 
-    void Start()
+    void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         //anim = GetComponent<Animator>();
+        MaxHp = 100;
+        Hp = MaxHp;
+
+        BeHitSpeed = 0.5f;
     }
 
     void Update()
@@ -101,6 +111,13 @@ public class PlayerController : MonoBehaviour
             Vector2 dir = movement;
             return dir;
         }
+    }
+    public void BeHit(Vector2 Dir, float damge)
+    {
+        IsHit = true;
+        rb.velocity = Dir * BeHitSpeed;
+        //playerAni.SetTrigger("Hit");
+        Hp -= damge;
     }
     //void Attack()
     //{

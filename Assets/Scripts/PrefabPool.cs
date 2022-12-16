@@ -17,6 +17,8 @@ public class PrefabPool : MonoBehaviour
 
     public GameObject Axe;
 
+    public GameObject Tornado;
+
 
     void Start()
     {
