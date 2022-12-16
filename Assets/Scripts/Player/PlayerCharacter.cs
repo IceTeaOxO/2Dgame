@@ -13,63 +13,63 @@
 //    CapsuleCollider2D playerCol;
 //    LayerMask ground;
 //    GameObject JumpBox;
-//    SpriteRenderer playerRenderer;//玩家的图片显示
+//    SpriteRenderer playerRenderer;
     
-//    public GameObject ghosting;//残影
+//    public GameObject ghosting;
 //    public AudioSource music;
 //    public List<AudioClip> list;
 
-//    public float MaxHp;//最大血量
-//    public float Hp;//当前血量
+//    public float MaxHp;
+//    public float Hp;
 
-//    public int AttackMode;//当前的攻击模式
-//    public float LightAttackDamge;//轻攻击伤害 15
-//    public float HeavyAttackDamge;//斧子攻击伤害 20
+//    public int AttackMode;
+//    public float LightAttackDamge;
+//    public float HeavyAttackDamge;
 
-//    public float Speed;//左右移动速度
-//    public float SlidSpeed;//闪避速度
-//    public float JumpSpeed;//跳跃速度
-//    public float AttackSpeed;//轻攻击补偿速度
-//    public float HeavySpeed;//重攻击补偿速度
-//    public float BeHitSpeed;//击退速度
-//    public float HeavyBeHitSpeed;//重攻击击退速度
+//    public float Speed;
+//    public float SlidSpeed;
+//    public float JumpSpeed;
+//    public float AttackSpeed;
+//    public float HeavySpeed;
+//    public float BeHitSpeed;
+//    public float HeavyBeHitSpeed;
 
-//    public float FallMultiplier;//下落加速度
-//    public float LowJumpMultiplier;//跳跃加速度
+//    public float FallMultiplier;
+//    public float LowJumpMultiplier;
 
-//    public float BeHitShield;//受到攻击时的伤害 
+//    public float BeHitShield; 
 
-//    public Vector3 NowDir;//记录输入时的按键方向
+//    public Vector3 NowDir;
 
-//    public bool IsGround;//判断能否跳跃
-//    public bool IsJump;//判断是否在空中
-//    public bool IsSliding;//是否再闪避中
-//    public bool IsAttack;//是否在攻击中
-//    public bool canInput;//攻击中不能输入
-//    public bool canSliding;//闪避间隔
-//    public bool IsHit;//是否处于被攻击状态
-//    public bool IsDefend;//是否处于无敌状态
-//    public bool IsDisplay;//闪烁中的开关
-//    public bool IsBack;//后撤步
-//    public bool IsMove;//奔跑的音频控制
+//    public bool IsGround;
+//    public bool IsJump;
+//    public bool IsSliding;
+//    public bool IsAttack;
+//    public bool canInput;
+//    public bool canSliding;
+//    public bool IsHit;
+//    public bool IsDefend;
+//    public bool IsDisplay;
+//    public bool IsBack;
+//    public bool IsMove;
 
-//    public int JumpMax;//最大跳跃数
-//    public int JumpCount;//当前跳跃数
-//    public int ComboCount;//当前攻击动作
+//    public int JumpMax;
+//    public int JumpCount;
+//    public int ComboCount;
 
-//    public float StartSlidTime;//冲刺开始时间（没用）
-//    public float SlidTime;//冲刺时间
-//    public float SlidCountTime;//冲刺计时器
-//    public float SlidCd;//冲刺Cd
-//    public float StartCombo;//开始连击时间
-//    public float ComboTime;//连击时间
-//    public float DefendTime;//无敌时间
-//    public float FlashingTime;//闪烁间隔
-//    public float FlashTep;//闪烁计时器
-//    public float BackTime;//后撤步时间
+//    public float StartSlidTime;
+//    public float SlidTime;
+//    public float SlidCountTime;
+//    public float SlidCd;
+//    public float StartCombo;
+//    public float ComboTime;
+//    public float DefendTime;
+//    public float FlashingTime;
+//    public float FlashTep;
+//    public float BackTime;
 
-//    public Vector2 InitialSize;//初始碰撞体大小
-//    public Vector2 InitialOffset;//初始碰撞体位置
+//    public Vector2 InitialSize;
+//    public Vector2 InitialOffset;
 
 //    public float time;
 //    void Awake()
@@ -140,7 +140,7 @@
 //        Death();
 //        SlidCountTime -= Time.deltaTime;
 //    }
-//    public void Move(float h)//移动
+//    public void Move(float h)
 //    {
 //        if (!canInput || IsHit) 
 //        {
@@ -182,7 +182,7 @@
 //            }
 //        }
 //    }
-//    public void Jump() //跳跃
+//    public void Jump() 
 //    {
 //        if (!canInput ) 
 //        {
@@ -207,12 +207,12 @@
 //            }
 //        }
 //    }
-//    public void CheckGround()//地板检测 
+//    public void CheckGround()
 //    {
 //        IsGround = Physics2D.OverlapCircle(JumpBox.transform.position, 0.1f, ground);
 //        IsJump = !IsGround;
 //    }
-//    public void PlayFallAni() //播放下落动画
+//    public void PlayFallAni() 
 //    {
 //        if (!IsGround && canInput && !IsSliding && !IsHit) 
 //        {
@@ -227,7 +227,7 @@
 //            }
 //        }
 //    }
-//    public void StartSliding() //滑铲时的操作
+//    public void StartSliding() 
 //    {
 //        if (!IsSliding && canInput && IsGround && !IsHit && SlidCountTime <= 0)
 //        {
@@ -240,7 +240,7 @@
 //            gameObject.layer = LayerMask.NameToLayer("Flashing");
 //        }
 //    }
-//    IEnumerator SlidMove(float time) //滑铲时间
+//    IEnumerator SlidMove(float time) 
 //    {
 //        canInput = false;
 //        music.Pause();
@@ -290,7 +290,7 @@
 //        gameObject.layer = LayerMask.NameToLayer("Player");
 
 //    }
-//    public void Attack()//轻攻击
+//    public void Attack()
 //    {
 //        if (!IsAttack && !IsSliding && !IsHit)
 //        {
@@ -319,7 +319,7 @@
 //            playerRig.velocity = new Vector2(-playerTra.localScale.x * AttackSpeed, playerRig.velocity.y); 
 //        }
 //    }
-//    public void HeavyAttack() //重攻击
+//    public void HeavyAttack() 
 //    {
 //        if (!IsAttack && !IsSliding && !IsHit)
 //        {
@@ -348,7 +348,7 @@
 //            playerRig.velocity = new Vector2(-playerTra.localScale.x * HeavySpeed, playerRig.velocity.y);
 //        }
 //    }
-//    public void InAttack()//连击
+//    public void InAttack()
 //    {
 //        if (StartCombo != 0)
 //        {
@@ -370,15 +370,15 @@
 //        music.clip = list[1];
 //        music.Play();
 //    }
-//    public void AttackOver() //攻击状态退出
+//    public void AttackOver() 
 //    {
 //        IsAttack = false;
 //    }
-//    public void CanInput() //能进行操作
+//    public void CanInput() 
 //    {
 //        canInput = true;
 //    }
-//    public void BeHit(Vector2 Dir,float damge)//被敌人攻击（轻微位移）
+//    public void BeHit(Vector2 Dir,float damge)
 //    {
 //        music.clip = list[3];
 //        music.Play();
@@ -423,7 +423,7 @@
 //            }
 //        }
 //    }
-//    public void BeHitOver() //被攻击状态的退出
+//    public void BeHitOver() 
 //    {
 //        IsHit = false;
 //        IsDefend = true;
