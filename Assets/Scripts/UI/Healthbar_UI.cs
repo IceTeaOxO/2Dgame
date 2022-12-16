@@ -9,11 +9,11 @@ public class Healthbar_UI : MonoBehaviour
     public Image healthbars;
     public Image fakehealthbars;
 
-    PlayerCharacter Player;
+    PlayerController Player;
 
     void Awake()
     {
-        Player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerCharacter>();
+        Player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
     }
 
     void Update()
