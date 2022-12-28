@@ -20,6 +20,7 @@ public class GoblinKing : MonoBehaviour
     Rigidbody2D C_rig;
     Animator C_ani;
     BackGround background;//change background(light dim)
+    public GameManager gm;
     public AudioSource HitAudio;
     public AudioSource AttackAudio;
     public Animator EffectAni;//play SFX
@@ -60,7 +61,7 @@ public class GoblinKing : MonoBehaviour
 
         state = BossState.Idle;
 
-        MaxHp = 200;
+        MaxHp = 500;
         Hp = MaxHp;
 
         MoveDamge = 20;
@@ -276,6 +277,8 @@ public class GoblinKing : MonoBehaviour
     public void Death() 
     {
         Destroy(gameObject);
+        gm.Victory();
+
     }
     public void PlayAttackAudio() 
     {
@@ -292,11 +295,11 @@ public class GoblinKing : MonoBehaviour
         {
             if (C_tra.position.x < Player.transform.position.x)
             {
-                collision.collider.GetComponent<PlayerController>().BeHit(Vector2.right,MoveDamge);
+                collision.collider.GetComponent<PlayerCharacter>().BeHit(Vector2.right,MoveDamge);
             }
             else if (C_tra.position.x >= Player.transform.position.x) 
             {
-                collision.collider.GetComponent<PlayerController>().BeHit(Vector2.left,MoveDamge);
+                collision.collider.GetComponent<PlayerCharacter>().BeHit(Vector2.left,MoveDamge);
             }
         }
     }

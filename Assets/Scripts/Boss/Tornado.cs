@@ -26,7 +26,7 @@ public class Tornado : MonoBehaviour
 
         Speed = 15;
 
-        Damge = 8f;
+        Damge = 15f;
 
         LifeTime = 4f;
     }
@@ -68,15 +68,15 @@ public class Tornado : MonoBehaviour
             animator.Play("Hit");
             if (transform.position.x < collision.transform.position.x)
             {
-                collision.GetComponent<PlayerController>().BeHit(Vector2.right, Damge);
+                collision.GetComponent<PlayerCharacter>().BeHit(Vector2.right, Damge);
             }
             else if (transform.position.x >= collision.transform.position.x)
             {
-                collision.GetComponent<PlayerController>().BeHit(Vector2.left, Damge);
+                collision.GetComponent<PlayerCharacter>().BeHit(Vector2.left, Damge);
             }
 
         }
-        else if (collision.CompareTag("Ground"))
+        else if (collision.CompareTag("AirWall"))
         {
             animator.Play("Hit");
         }

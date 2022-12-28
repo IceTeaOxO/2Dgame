@@ -1,38 +1,36 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+//using System.Collections;
+//using System.Collections.Generic;
+//using UnityEngine;
 
-public class AxeThrow : MonoBehaviour
-{
-    public GameObject axePrefab;
+//public class AxeThrow : MonoBehaviour
+//{
+//    public GameObject axePrefab;
+//    public GameObject character;
 
-    public GameObject character;
+//    PlayerCharacter Player;
+//    Vector2 direction;
 
-    Vector2 direction;
+//    public float power;
 
-    public float power;
+//    void Awake()
+//    {
+//        Player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerCharacter>();
+//    }
+//    void Update()
+//    {
+//        if(Input.GetKeyDown(KeyCode.J))
+//        {
+//            Throw(character);
+//        }    
+//    }
 
-    void Start()
-    {
-
-    }
-
-    
-    void Update()
-    {
-        if(Input.GetKeyDown(KeyCode.J))
-        {
-            Throw(character);
-        }    
-    }
-
-    void Throw(GameObject character)
-    {
-        direction = character.GetComponent<PlayerController>().GetFacingDirection().normalized;
-        GameObject axe = MonoBehaviour.Instantiate(axePrefab);
-        axe.transform.position = character.transform.position;
-        axe.GetComponent<Rigidbody2D>().isKinematic = false;
-        axe.GetComponent<Rigidbody2D>().AddForce(direction * power);
-        axe.GetComponent<Axe>().canRotate = true;
-    }
-}
+//    void Throw(GameObject character)
+//    {
+//        direction = character.GetComponent<PlayerController>().GetFacingDirection().normalized;
+//        GameObject axe = MonoBehaviour.Instantiate(axePrefab);
+//        axe.transform.position = character.transform.position;
+//        axe.GetComponent<Rigidbody2D>().isKinematic = false;
+//        axe.GetComponent<Rigidbody2D>().AddForce(direction * power);
+//        axe.GetComponent<Axe>().canRotate = true;
+//    }
+//}

@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Boss_GoblinKing.unity
     guid: 9e80e967c0d62504b9e08431f2f21425
+  - enabled: 1
+    path: Assets/Scenes/Forest.unity
+    guid: f384b0e559a5c8343839c13ece5ffed0
+  - enabled: 1
+    path: Assets/Scenes/Village.unity
+    guid: cfb0699a41e838b439591efe2e3b0b6e
   m_configObjects: {}
